@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym,
+
+
+ address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	border: 2px solid black
+}
+/* This is where the new code starts */
+
+* { 
+  border: 1px, solid, black
+  }
+
+#topnav {
+	border: 1px solid black;
+	height:100px;
+	background-color: #002E5C
+
+}
+
+#topnav2 {
+	height:30px;
+	background-color: #4D6D8D;
+	vertical-align: middle
+}
+
+#efficasyslogo {
+	font-family: Arial;
+	font-size: 1.5em;
+	background-color: 	#EFF8FB;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	float: left;
+	height: 70px;
+	font-weight: bolder;
+	padding: 5px;
+	line-height: 3em;
+
+
+
+}
+
+#top-buttons {
+
+	position: relative;
+	left: 10%;
+	display: inline-block;
+	padding: 5px;
+	height: 50px;
+	font-color: red;
+	padding: 10px;
+	text-align: center;
+}
+
+.button {
+	border: 1px solid black;
+	display: inline-block;
+	border: 1px solid black;
+	padding: 5px;
+	font-family: Arial;
+	height: 70px;
+	width: 130px;
+	color: black;
+	background-color: #0B0B3B;
+	vertical-align: middle;
+	color: white;
+	line-height: 3em;
+	font-size: 1.5em
+
+}
+#middlebox {
+	border: 1px solid black;
+	height:400px;
+	background: url('home_banner.jpg') 0px 0px no-repeat;
+}
+
+#middle-text {
+	position: relative;
+	top: 50px;
+	left: 20px;
+	color: white;
+	font-family: Arial;
+	width: 700px;
+	font-size: 40px;
+	font-weight: bold;
+	
+	}
+
+#lowermiddlebox {
+	border: 1px solid black;
+	height:150px;
+	background-color: #E6EBF0;
+
+}
+
+.lower-boxes {
+	position: relative;
+	top: 10px;
+	left: 10px;
+	display: inline-block;
+	border: 1px solid black;
+	height: 120px;
+	width: 300px;
+	font-family: arial;
+	font-size: 20px;
+	padding: 4px;
+	background-color: #002E5C;
+	color: white;
+	text-align: center;
+	line-height: 6em
+}
+
+
+
+
+#lowestbox {
+	border: 1px solid black;
+	height:30px;
+	line-height: 1.5em;
+	background-color:#4D7094;
+	Color: white;
+	font-family: arial;
+	padding-left: 5px;
+	padding-top: 20px;
+	font-size: 15px;
+
+}
